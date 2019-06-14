@@ -1,0 +1,3 @@
+SCRIPT_DIR=~/Projects/Eoman/scripts
+cd $SCRIPT_DIR
+./cleardir.sh

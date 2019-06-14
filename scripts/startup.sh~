@@ -1,0 +1,12 @@
+SCRIPT_DIR=~/Projects/Eoman/scripts
+cd $SCRIPT_DIR
+printf "Running startup script!\n"
+TMP_DIR=/tmp/eoman/
+
+if [ ! -d "$TMP_DIR" ]; then
+	mkdir $TMP_DIR
+fi
+
+./cleardir.sh
+pwd
+printf "Finished startup script!\n"

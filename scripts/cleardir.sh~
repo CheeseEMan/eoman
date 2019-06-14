@@ -1,0 +1,6 @@
+cd /tmp/eoman
+rm -r $(ls)
+mkdir search
+cd search
+mkdir name
+mkdir description
